@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6c5ce7;
+}
+
+.container{
+    width: 500px;
+    background: white;
+    border-radius: 4px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+    padding: 20px 30px;
+}
+
+.container h2.title {
+    color: #6c5ce7;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 800;
+}
+
+.container form .inputBox{
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+.container form .inputBox input{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #f1f1f1;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    padding: 10px;
+    font-size: 1rem;
+    color: black;
+}
+
+.container form .inputBox.button button{
+    margin-top: 25px;
+    border: none;
+    outline: none;
+    background: #6c5ce7;
+    color: white;
+    padding: .5rem 2rem;
+    display: block;
+    border-radius: 4px;
+    font-size: 1rem;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.container form .inputBox .copyIcon{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background: #6c5ce7;
+    color: #f1f1f1;
+    border-radius: 0 4px 0 4px;
+    cursor: pointer;
+}
